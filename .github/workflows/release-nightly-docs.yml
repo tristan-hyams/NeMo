@@ -15,9 +15,9 @@
 
 name: Release Nightly Docs
 
-on:
-  schedule:
-    - cron: "0 10 * * *"
+#on:
+#  schedule:
+#    - cron: "0 10 * * *"
 
 jobs:
   call-release-docs:
