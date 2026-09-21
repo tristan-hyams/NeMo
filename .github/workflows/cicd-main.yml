@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 name: CICD NeMo
-on:
-  schedule:
-    - cron: 0 0 * * *
+#on:
+#  schedule:
+#    - cron: 0 0 * * *
   push:
     branches:
       - main
